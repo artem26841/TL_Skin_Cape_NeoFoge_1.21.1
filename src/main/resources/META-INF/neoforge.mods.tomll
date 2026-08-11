@@ -1,0 +1,36 @@
+# Мод-лоадер, который мы используем (для NeoForge пишется lowcode)
+modLoader="lowcode"
+# Версия лоадера (4 и выше подходит для 1.21+)
+loaderVersion="[4,)"
+# Лицензия вашего мода
+license="MIT"
+
+[[mods]]
+# Обязательно указываем точный ID мода, который мы видели в миксинах
+modId="tlskincape"
+# Версия подставится автоматически из файла build.gradle
+version="${version}"
+# Название мода для отображения в списке модов в игре
+displayName="TL Skin Cape"
+# Ссылка на сайт проекта
+displayURL="https://tlauncher.org"
+# Автор мода
+authors="TLauncher"
+# Описание мода
+description="Custom skin and cape loader for Minecraft 1.21.1 by TLauncher."
+
+[[dependencies.tlskincape]]
+# Указываем, что нашему моду обязательно нужен сам NeoForge для запуска
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.tlskincape]]
+# Указываем, что наш мод должен работать на версии Майнкрафта 1.21.1
+modId="minecraft"
+type="required"
+versionRange=""
+ordering="NONE"
+side="CLIENT"
