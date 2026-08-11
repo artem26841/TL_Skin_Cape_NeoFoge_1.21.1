@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "org/tlauncher/mixin/MixinMainMenu": {
+      "render": "Lnet/minecraft/client/gui/screens/TitleScreen;m_6305_(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V"
+    },
+    "org/tlauncher/mixin/MixinAbstractPlayer": {
+      "getElytraTextureLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108563_()Lnet/minecraft/resources/ResourceLocation;",
+      "getModelName": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108564_()Ljava/lang/String;",
+      "getSkinTextureLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108560_()Lnet/minecraft/resources/ResourceLocation;",
+      "getCloakTextureLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108561_()Lnet/minecraft/resources/ResourceLocation;"
+    },
+    "org/tlauncher/mixin/MixinPlayer": {
+      "isModelPartShown": "Lnet/minecraft/world/entity/player/Player;m_36170_(Lnet/minecraft/world/entity/player/PlayerModelPart;)Z"
+    },
+    "org/tlauncher/mixin/MixinPlayerModel": {
+      "renderCloak": "Lnet/minecraft/client/model/PlayerModel;m_103411_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/tlauncher/mixin/MixinMainMenu": {
+        "render": "Lnet/minecraft/client/gui/screens/TitleScreen;m_6305_(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V"
+      },
+      "org/tlauncher/mixin/MixinAbstractPlayer": {
+        "getElytraTextureLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108563_()Lnet/minecraft/resources/ResourceLocation;",
+        "getModelName": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108564_()Ljava/lang/String;",
+        "getSkinLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108556_()Lnet/minecraft/resources/ResourceLocation;",
+        "getCloakTextureLocation": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108561_()Lnet/minecraft/resources/ResourceLocation;"
+      },
+      "org/tlauncher/mixin/MixinPlayer": {
+        "isModelPartShown": "Lnet/minecraft/world/entity/player/Player;m_36170_(Lnet/minecraft/world/entity/player/PlayerModelPart;)Z"
+      },
+      "org/tlauncher/mixin/MixinPlayerModel": {
+        "renderCloak": "Lnet/minecraft/client/model/PlayerModel;m_103411_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V"
+      }
+    }
+  }
+}

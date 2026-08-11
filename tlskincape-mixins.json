@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "org.tlauncher.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "tlskincape-refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "MixinAbstractPlayer",
+    "MixinMainMenu",
+    "MixinPlayer",
+    "MixinPlayerModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

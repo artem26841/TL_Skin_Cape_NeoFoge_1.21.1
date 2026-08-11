@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+license="All rights reserved"
+[[mods]]
+modId="tlskincape"
+version="1.32"
+displayName="TLSkinCape"
+description='''
+Custom skin and cape loader for Minecraft by TLauncher
+'''
+issueTrackerURL=""
+displayURL="https://tlauncher.org"
+authors=["tlauncher.org"]
+[[dependencies.tlskincape]]
+modId="forge"
+mandatory=true
+versionRange="[25,)"
+ordering="NONE"
+side="CLIENT"

@@ -1,0 +1,370 @@
+Manifest-Version: 1.0
+MixinConnector: org.tlauncher.MixinConnector
+
+Name: org/tlauncher/injection/InjectionHelper$FieldNodeContainer.class
+SHA-256-Digest: Guu0cHOPxwxjzw9F4eRujNRDWj8DDD07zQ7K0U93rL8=
+
+Name: org/tlauncher/util/ForgeReflectionUtils.class
+SHA-256-Digest: Iqa/SVXvdRiOb4z9ZPqrxzQOjme+NtacEUyJaB4FvAE=
+
+Name: tlskincape-mixins.json
+SHA-256-Digest: 04bpllrIuhG/o2Lrokvf/pFe2oz20sij0myJ5ucJqw8=
+
+Name: org/tlauncher/injection/mapping/mappings30
+SHA-256-Digest: y0K3iBl5PLftyQ1eKAHFnLys7+h1/DfQMmSsloEizkI=
+
+Name: org/tlauncher/injection/mapping/ObfObject.class
+SHA-256-Digest: ZLyxncepVfbildpWUYSDKNGGPOp0wE1kmt8ep2OG1UU=
+
+Name: org/tlauncher/injection/mapping/ObfMethod.class
+SHA-256-Digest: ujn9llFho4niEM+9pv6dpjxd6S6f05RTKx61p0Gkb1I=
+
+Name: org/tlauncher/injection/mapping/mappings32
+SHA-256-Digest: XRxbIJUiQYlgV9QnDiZHmjLJpyMUOshGNjwurbdoHf4=
+
+Name: org/tlauncher/injection/mapping/mappings31
+SHA-256-Digest: VUK9MGY4y3qG2x7NM0b1xaPzJxKBvzq7UnGQhJLziuk=
+
+Name: org/tlauncher/injection/mapping/mappings34
+SHA-256-Digest: cCckPcFAFxfDex/xEnYbOp7DbONuohekP4cNs+eSCUE=
+
+Name: org/tlauncher/injection/mapping/mappings33
+SHA-256-Digest: mNCtCSNkqNQeX6VRC7hWWAe0JUgBWR44Qpc4K+Dqrsg=
+
+Name: org/tlauncher/renderer/TextureHandlerCC.class
+SHA-256-Digest: UFuzBwWe7gXCrCy+ECZ7TMgCYoH6pME5YLOIB37VRRI=
+
+Name: org/tlauncher/MixinConnector.class
+SHA-256-Digest: d0c1YmmWylSkSPjIbwSKM5F3+n3XabTFA5RPD1VsYgE=
+
+Name: org/tlauncher/util/ServerConnector.class
+SHA-256-Digest: y3FcIQol6F/5Kqo1sBImoiYjHM/ggVvQsGQnUnEJQiU=
+
+Name: org/tlauncher/renderer/TextureManager.class
+SHA-256-Digest: 0y56pUKSZMgldtx2PRsgbmd/vhvnpLMkAwXhgfBbEyk=
+
+Name: org/tlauncher/injection/InjectionHelper.class
+SHA-256-Digest: GycqCuV0xJZRrfse1Kbam3gdYSsC/p648ZulMn41Cns=
+
+Name: org/tlauncher/mixin/MixinAbstractPlayer.class
+SHA-256-Digest: TDmf4aQCcuhPUOEeLtS2VKMcV382j9/u188fBi0YJPY=
+
+Name: org/tlauncher/util/TypeLocator$ParamsData.class
+SHA-256-Digest: VrBlr9HuPo46VaH5uhszg8NqglAzIqQlrO1tBmrlO/I=
+
+Name: org/tlauncher/injection/MethodDescFilter.class
+SHA-256-Digest: 6HHGTRFnjCu6nKS8G//cScFiWy0JILzkJWNSs/1lodA=
+
+Name: org/tlauncher/Logger.class
+SHA-256-Digest: gQEP+f6+b+mf6tWPUeBB3WHnhjJ5e6Akccwhup9lal4=
+
+Name: org/tlauncher/mixin/MixinPlayer.class
+SHA-256-Digest: 0QRMlI565mowzCylD2ef1U9rYvrHHVsW3j+eXxx8u5o=
+
+Name: org/tlauncher/renderer/image/NativeImageWrap.class
+SHA-256-Digest: dvP2lg47F5/niIUP8LQcQVoaYkOmEMDf0yUm9b61G8c=
+
+Name: org/tlauncher/injection/InjectionResult.class
+SHA-256-Digest: sRo4saYa7y36ZQiPRZenXBrt1/dWLxaVXaQrQSzz3OY=
+
+Name: org/tlauncher/injection/InjectionHelper$MethodModel.class
+SHA-256-Digest: 7QnWhILY1+I/po/ilpYT7z+pb8+pLd1XI1R9xd5dDTU=
+
+Name: org/tlauncher/util/PreparedProfileManager$1.class
+SHA-256-Digest: 5taTHF0vBwmaX6s3nMcmP1NXhNk7k5776Eu7DU6kiNs=
+
+Name: org/tlauncher/util/TypeLocator$ClassNames.class
+SHA-256-Digest: FuDum/P4axubKPx5GWzFdd86PLnVp3jis77PI2wnyEI=
+
+Name: org/tlauncher/model/MinecraftTexturesPayload1.class
+SHA-256-Digest: QvHLXvmQQdNzy2BZvlvrruhShUa8B01WJg8QSOxwF94=
+
+Name: org/tlauncher/injection/mapping/Mappings.class
+SHA-256-Digest: W+bjhTKwni51w7klGJ9giGPKw8F/J3qca2YvtN3RXYI=
+
+Name: org/tlauncher/model/MinecraftProfileTextureDTO.class
+SHA-256-Digest: utsMZaaQwZ2Fj87ZkgEq/ioHo9KG51GjWcmRLtanID0=
+
+Name: org/tlauncher/model/Performance.class
+SHA-256-Digest: day3HgwC0hW7JXhpawHd4YDzvqua1IiAaY9dNvmUwRQ=
+
+Name: org/tlauncher/injection/Injection.class
+SHA-256-Digest: fkv81Lo1zVAigcLGGeyb1zsvRQajbBNRMM3q13jv9r4=
+
+Name: org/tlauncher/injection/mapping/MappingManager.class
+SHA-256-Digest: GBEooR6UDjlBCL17WOeEzE9jCZOIZpw92Pl7krPy6No=
+
+Name: org/tlauncher/renderer/ITextureHandler.class
+SHA-256-Digest: HfXy9jz3pli6cwbOzXjHszhwWVRPapqqDPp/nhEzEGw=
+
+Name: org/tlauncher/connector/AbstractConnector.class
+SHA-256-Digest: wH4a1DrLmrDru9tlFDA1sUGfu0teWI4r7XlyaYhn6wQ=
+
+Name: org/tlauncher/util/MinecraftUtils.class
+SHA-256-Digest: XX23mMDto8Dbz0xH+UuKJkc/0wloFaidlx1D/EOGQ/k=
+
+Name: org/tlauncher/util/PreparedProfileManager.class
+SHA-256-Digest: 8qXWpnzjfQ6SPMWFUm7XWNghfk+eAX7S6HVZ7BkaQM4=
+
+Name: org/tlauncher/forge/ForgeMod.class
+SHA-256-Digest: paGCy2VyM4Ot9lPsV3b9vb28KLUCtQ3BnE/ssf8+bNI=
+
+Name: org/tlauncher/connector/ExtendedServerListData.class
+SHA-256-Digest: oO5j+Z1qpm0uwr9ooYwlWxWi4mAbJbqdcUAu5f2qDXg=
+
+Name: org/tlauncher/model/ProfileTexture.class
+SHA-256-Digest: hb14ldmLu2O7QePXnp8zoCnDwXju+0NqughlrtqWt1s=
+
+Name: org/tlauncher/injection/MethodDescFilter$MethodDescFilterBuilder
+ .class
+SHA-256-Digest: cbHHoO0z/jsxmN9XRqhEf4vvKwgapdIMyokIC1yl78s=
+
+Name: org/tlauncher/injection/InjectionHelper$Processor.class
+SHA-256-Digest: jw0jkGCKkpYvJiP+fPjjti885CYws8j0pxB+yIE8BaU=
+
+Name: BuildInfo.json
+SHA-256-Digest: 33EKOB1t4a+qSU5DzIEdO3jStpEYgEWYxs8GSWGyXno=
+
+Name: org/tlauncher/renderer/texture/FramedTexture.class
+SHA-256-Digest: Eh8J59nDurZNf9sKCTYguNHj89PzgTvvgH6olSDXn0k=
+
+Name: org/tlauncher/connector/FabricConnector.class
+SHA-256-Digest: G9U1oihfGFJVnp0+o4FAZ773/w+OxJ8yEPkeqWMQReM=
+
+Name: org/tlauncher/injection/mapping/mappings10
+SHA-256-Digest: rhsaeCPB+YKjg0n2gklrC5ZLLf6om8NbloYJ53Zw3uk=
+
+Name: org/tlauncher/injection/mapping/mappings12
+SHA-256-Digest: O8tjZ9CmuF6nysSd90Krhi+hn/3sFyT/zlwmj5XM+b4=
+
+Name: org/tlauncher/injection/mapping/mappings11
+SHA-256-Digest: sXejizHKXrNnIgWwMuL63lthOfXUwgXFszCFpE8lTHY=
+
+Name: org/tlauncher/injection/mapping/mappings14
+SHA-256-Digest: 3HkUrN8qRzBBwGqU6N/iL+DIHXEpN10YfBKjXRAhBw4=
+
+Name: org/tlauncher/injection/mapping/mappings13
+SHA-256-Digest: qL3Z8CsAJ1BK5TZX/v94fG5NXrAu449a1N2ZpoZi4Fo=
+
+Name: org/tlauncher/util/TextureUtils$1.class
+SHA-256-Digest: 2DPsxfaMkoOhHqI6ix9ynfD+onQD3Y/aWXrhXdUFPGg=
+
+Name: org/tlauncher/injection/mapping/mappings16
+SHA-256-Digest: DbZzfs1HG0PPHFQAX9fhBTLEkEEnXxqmChtOPtYqJmI=
+
+Name: org/tlauncher/injection/mapping/mappings15
+SHA-256-Digest: MfIGPom6Sgh9jGDXcTw7IqxsxdRJGHbJcOB1zagum8U=
+
+Name: org/tlauncher/injection/mapping/mappings18
+SHA-256-Digest: sJaX6h8u6jYPMgb1Hb6V/bW00ivUzVtnerCfidXlHyc=
+
+Name: org/tlauncher/injection/mapping/mappings17
+SHA-256-Digest: 9cLTn2j4k/k46QD7pACisO7TCe2jEujA9rOnyJlXeR4=
+
+Name: org/tlauncher/util/PreparedProfileManager$3.class
+SHA-256-Digest: kisqrDYTLy11HGrh6qVZLZvpzPQ8KvPixH9aGUcj6Ys=
+
+Name: org/tlauncher/connector/Connector.class
+SHA-256-Digest: +kgqWy/hAz9NSBzH+PRGkspRPKNQCeSoF0/a+vGQw3E=
+
+Name: org/tlauncher/injection/mapping/mappings19
+SHA-256-Digest: 4KP28Z52V861Pap9wardT8CVhDzNW4QJxbqxicpANII=
+
+Name: org/tlauncher/injection/InjectionHelper$MethodModel$MethodModelB
+ uilder.class
+SHA-256-Digest: 80aQWJYVpMZy2M0MZLhd+DaoGP8kVmMfmmir6GoF1sY=
+
+Name: org/tlauncher/injection/InjectionHelper$MethodNodeContainer.clas
+ s
+SHA-256-Digest: hPl6e1LnvZcp1O4Mn3jVhhR55VvenQh0W125X1YgDSg=
+
+Name: pack.mcmeta
+SHA-256-Digest: sIqAPxn0kW+eGK6f5GjQyvEMzETKnoNRPLWcJ6jCteo=
+
+Name: org/tlauncher/injection/mapping/mappings21
+SHA-256-Digest: jG1Gpji4gy1iWcyQctOj+eGuxY/q9CHedC7CnaaP5N0=
+
+Name: org/tlauncher/util/TextureUtils.class
+SHA-256-Digest: cYZ1e2VexPt50LfLsIOHE98iHGVJM9xm5tzDxiptWZI=
+
+Name: org/tlauncher/injection/mapping/mappings20
+SHA-256-Digest: rPIf/30dCjptEG19zaS0UxGq0nehwezwvAauWJEkMUs=
+
+Name: org/tlauncher/minecraft/GameTextureManagerImpl.class
+SHA-256-Digest: k0UGqVTRw7FjgEF/s5taLJUw5MYVFo2Al0eCMhfbkfM=
+
+Name: org/tlauncher/injection/mapping/mappings23
+SHA-256-Digest: avkVuyfCDmCIeJeZ0FqvBBLsMS2Oh3XpjPsCX2QItxg=
+
+Name: org/tlauncher/injection/mapping/mappings22
+SHA-256-Digest: xhmlRHHvXb6DIEreIY0p08cR+Ld4VRP8v9tmN344qeA=
+
+Name: org/tlauncher/injection/mapping/ObfField.class
+SHA-256-Digest: GUBCREwaj5pDPuQrykzhVzFpvm8swbYFtLyyrZGPSto=
+
+Name: org/tlauncher/injection/mapping/mappings25
+SHA-256-Digest: 06NNn2HpPBX/vFGrbISVtwvcJL295ZFO9miys2nAek8=
+
+Name: org/tlauncher/util/PreparedProfileManager$2.class
+SHA-256-Digest: er604dx1cb3NWX4Bpt4k1gEMl9sXFKOpRwOcrU0rNgc=
+
+Name: org/tlauncher/injection/mapping/mappings24
+SHA-256-Digest: jJri5t0pSDerxTMtfwpfOS8xYFFFSif4IEO0ndQ4Vlc=
+
+Name: org/tlauncher/injection/mapping/mappings27
+SHA-256-Digest: 4eE+rcG5+osbU/aEcTZxXumZKbwKsyT4Sy7T0x3tDA8=
+
+Name: org/tlauncher/injection/mapping/mappings26
+SHA-256-Digest: yPgvhP3/NsVmH5ZcOO0tOvOPh4Wjt3y1JzZFJUn9t6c=
+
+Name: org/tlauncher/renderer/image/BufferedImageWrap.class
+SHA-256-Digest: woPGhq8TrPTBu8q5rMkBRPI/4kirxxxyT2f04bjuDpY=
+
+Name: org/tlauncher/injection/mapping/mappings29
+SHA-256-Digest: cnfUZoTbV+atDe+uOm94/sDFbtVmZFVWkmY+mAYA0Cw=
+
+Name: org/tlauncher/injection/mapping/mappings28
+SHA-256-Digest: HC5LZOgEAao5TzfiGBTpzeM9u8EWcnGYDTYGm4o4Rk4=
+
+Name: mcmod.info
+SHA-256-Digest: Y7lhoXMClzlZMAgNpgTqRiYeN7/wHPfNbBeELuvdlvs=
+
+Name: org/tlauncher/TLSkinCape.class
+SHA-256-Digest: i7NYq+GY3t4uWv7163/76mxQfjJAfhL6BunVFLuN6c4=
+
+Name: org/tlauncher/util/Logger.class
+SHA-256-Digest: MnSu5f3odUjmWS0MLvcNr6ynJSV4KXhipTGZQNg0Yg4=
+
+Name: META-INF/mods.toml
+SHA-256-Digest: NQp2OtvZFXMmJ5k0OW421sudFtIaXONdUwfB8eTUZhI=
+
+Name: org/tlauncher/util/TypeLocator$MethodData.class
+SHA-256-Digest: Ks70PMHr6SNi6h/kZ9ZtnP75vw/Txt155imqJlZBzgU=
+
+Name: org/tlauncher/connector/ForgeConnector.class
+SHA-256-Digest: SsOiw7DyQ3Gyy8zbt54IzQURuLkBA4G6sWPvZjAVleg=
+
+Name: META-INF/coremods.json
+SHA-256-Digest: yj0WO6sFU4GCciYUBWjzvvfqrBh869doeOC2Pp5EI1Y=
+
+Name: org/tlauncher/Variables.class
+SHA-256-Digest: zEcmreKstywQ5PS6juSpvzIdFZPT4/ze6Z7CI6eP64U=
+
+Name: org/tlauncher/launch/Launch.class
+SHA-256-Digest: 2zXHqWkq5e7xzWxRZ6Gph2pnZrFEeQSMThUhTg0m9Dk=
+
+Name: org/tlauncher/Logger$Level.class
+SHA-256-Digest: oNNAb2ajs/++Z6/kfjNx2R3fDJWFnhAXmaKw2zmRTl8=
+
+Name: org/tlauncher/injection/InjectionClassTransformer.class
+SHA-256-Digest: m0/92wlvlz6Mjby4zhck5/VOoYT6RntYn7atOQ72dXA=
+
+Name: org/tlauncher/renderer/image/ImageWrap.class
+SHA-256-Digest: hJVqzHOSVDXk1QCJaqfaFHORQaeOqXmJhF0J2Drjccg=
+
+Name: tlskincape-refmap.json
+SHA-256-Digest: 32Q+kHbh9pCEJ49GeNvhK9dlPC2ebSKefkBRPJBjo/k=
+
+Name: org/tlauncher/injection/InjectionManager.class
+SHA-256-Digest: dALoMajTw2u3DcyRKlkOd356kKC9wMGdaHGs0YfMX/I=
+
+Name: org/tlauncher/injection/mapping/ObfClass.class
+SHA-256-Digest: eSn0OYziC0xa1REut2qXPCnlYsrZXqfWIBxN8I+JodM=
+
+Name: org/tlauncher/injection/Injections.class
+SHA-256-Digest: VN6UIbGqB0L0uSVISDylolEFh8tGaHB1tBvs0DXZC9c=
+
+Name: org/tlauncher/util/TypeLocator$ConstructorContainer.class
+SHA-256-Digest: eeZlS01pEARE3ADaLnd/YVS+KVIQouEzbrXWcmHDLtU=
+
+Name: org/tlauncher/mixin/MixinMainMenu.class
+SHA-256-Digest: ORFv5YkcAPfyG23116p0CUcwI7xAFHQWBM20rsuQOzI=
+
+Name: org/tlauncher/renderer/image/ImageWrapFactory.class
+SHA-256-Digest: grTRHU2oveQqF+581VpWB7/9SnBbrt4QmQxWYJ71LxU=
+
+Name: org/tlauncher/renderer/TextureManager$1.class
+SHA-256-Digest: +YrHPefokMewI0D2GPMDLjpFX8SDP3vEibMaYc3NuLY=
+
+Name: org/tlauncher/renderer/texture/LightTexture.class
+SHA-256-Digest: hd4DLz9mWa2tDAzDsub9rhOFUNka116xue0Kx9VBwdY=
+
+Name: org/tlauncher/util/cape_test_272.png
+SHA-256-Digest: hJbumf7gSsjbWy7vJadOKEO3iH5kCt1gK+e7ZGdMwco=
+
+Name: org/tlauncher/model/PlayerName.class
+SHA-256-Digest: FQ7LP61NOG+QZZ2uKKtvlES7T7e7RxfyT6joGTSsrNc=
+
+Name: org/tlauncher/model/PerformanceTextureData.class
+SHA-256-Digest: Lz+Dqg+w8RFMWTYWEHgwFge3EsCKl+RdmyR+/qw4BKc=
+
+Name: org/tlauncher/injection/mapping/mappings7
+SHA-256-Digest: LNyvhNZ6KRD+fvYrgO4cEd2gWWkOqTII80XG1j2yf5k=
+
+Name: org/tlauncher/util/JSONUtils.class
+SHA-256-Digest: 4jrLchu/eWMiTnkg+7VVpMAhT5/gjvFNWVciuv2Itp8=
+
+Name: org/tlauncher/injection/mapping/mappings6
+SHA-256-Digest: ygldARa0G1rSEwYL5URrT7Qxs+2YCEd84GC5lkTiyCo=
+
+Name: org/tlauncher/injection/mapping/mappings5
+SHA-256-Digest: LVvraikc1uGCxX4rXUYbzg5CsdVD5giAmFcblvfMuvY=
+
+Name: org/tlauncher/injection/mapping/mappings4
+SHA-256-Digest: CtSrnYCG6qK5AvNJ2Xarf8EGbrteKMzKiahd37xrRUM=
+
+Name: org/tlauncher/injection/mapping/mappings9
+SHA-256-Digest: KHewAK2ZNPUn/Zi9ekU/P4Sst4hKESzaozMuDsrkh0Q=
+
+Name: org/tlauncher/injection/mapping/mappings8
+SHA-256-Digest: 0QouA5FRHELiP/rIwaiFQTht6d1dQKzBq3EzxVDZwX8=
+
+Name: org/tlauncher/util/TLModCfg$GameVersionCategory.class
+SHA-256-Digest: d6d9Skf/E7AX+8k3+sA/x6vbsIk3K+xW01WaUSH7FHA=
+
+Name: org/tlauncher/util/TLModCfg.class
+SHA-256-Digest: XgGuiJjB1oe50AokasZ68yu5sVA1mycXE3gsz1mT5QE=
+
+Name: org/tlauncher/injection/InjectionHelper$MethodNodeContainer$Meth
+ odNodeWrap.class
+SHA-256-Digest: hRvW1CXdUwEpkSCER6oJb6AyxPElqIFKAakARg7dTmY=
+
+Name: org/tlauncher/util/elitra_test_272.png
+SHA-256-Digest: RLP6mcUGUa75681KQrmVIUxXCPLoro/R7Rg0a4Jfyqg=
+
+Name: org/tlauncher/util/Utils$ThrSupplier.class
+SHA-256-Digest: Y2CxK76PJkHHu7tTCJ7tqOMV14ZdQtwWbtkpdlk6oRA=
+
+Name: org/tlauncher/injection/mapping/mappings3
+SHA-256-Digest: 17VrUHe7e11Xrz78HMWmHZ+NifnzwMHfTkz+I2m0vXk=
+
+Name: org/tlauncher/injection/mapping/mappings2
+SHA-256-Digest: EfDOYigE4DJnFM4BdlPnF/rxFMbvc5yg2UqGGFDfq/I=
+
+Name: org/tlauncher/injection/mapping/mappings1
+SHA-256-Digest: QC8fRqj1Yl45dMBLnimHS+9HHD+mmgjANafmaecAHfA=
+
+Name: org/tlauncher/injection/mapping/mappings0
+SHA-256-Digest: ersbEsCeK4+mcJlkSw1WhR3FCByjlDcYqqBdvR5HU0o=
+
+Name: org/tlauncher/minecraft/GameTextureManager.class
+SHA-256-Digest: tFOHx3K45g2d9JBTGvUAkM9nE66LtHkJnU7zxa7IY8A=
+
+Name: org/tlauncher/mixin/MixinPlayerModel.class
+SHA-256-Digest: mn0ofCYoKdueCjz/uKtSvG3JBGxdrw2fAHlZpDHDtj4=
+
+Name: org/tlauncher/model/PreparedTextureData.class
+SHA-256-Digest: X7fTZDOzDvrqwQgZfTwG8dYV1MtM/ixjc0TYxx6Ui/0=
+
+Name: org/tlauncher/util/Utils.class
+SHA-256-Digest: hlVO+gR5Eei1ha1OdbkVzfq3naH0Tp5GQOaGh2hfZVE=
+
+Name: org/tlauncher/minecraft/Resource.class
+SHA-256-Digest: zww/S95BV79of3dBD1pFKrbQGGONeiOtgp2Nlw8v02E=
+
+Name: org/tlauncher/util/reflection/ReflectionUtils.class
+SHA-256-Digest: Ow1MBW0WsYmu9uP/aWI8Py2L8ShEUk8KoY0imRTHz8o=
+
+Name: org/tlauncher/util/TypeLocator.class
+SHA-256-Digest: xfC5yJzlRY6/PslbkMRhZ0/21c3BRVIkk/mVGnUJMDc=
+
