@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '1.0.21'
+}
+
+// Задаем базовые параметры мода. ID мода берем из старого файла - tlskincape
+group = 'org.tlauncher'
+version = '1.21.1-1.0'
+
+neoBlock {
+    // Указываем актуальную и стабильную версию NeoForge для Minecraft 1.21.1
+    version = '21.1.65'
+
+    runs {
+        client {
+            client()
+            // Указываем аргументы запуска, чтобы игра знала о наших миксинах
+            programArgument '--mixin.config=tlskincape-mixins.json'
+        }
+    }
+
+    // Включаем поддержку миксинов в самом Gradle
+    mixins {
+        create("tlskincape") {
+            config("tlskincape-mixins.json")
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Здесь будут зависимости, если они понадобятся в будущем
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
