@@ -1,71 +1,25 @@
-package org.tlauncher.mixin;
-
-import javax.annotation.Nullable;
-import net.minecraft.client.multiplayer.PlayerInfo;
-import net.minecraft.client.player.AbstractClientPlayer;
-import net.minecraft.resources.ResourceLocation;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import org.tlauncher.TLSkinCape;
-
-@Mixin({AbstractClientPlayer.class})
+@Mixin(AbstractClientPlayer.class)
 public abstract class MixinAbstractPlayer {
-   @Shadow
-   @Nullable
-   protected abstract PlayerInfo m_108558_();
 
-   @Inject(
-      method = {"m_108560_"},
-      at = {@At("RETURN")},
-      cancellable = true
-   )
-   private void m_108560_(CallbackInfoReturnable<ResourceLocation> cir) {
-      PlayerInfo playerInfo = this.m_108558_();
-      if (playerInfo != null) {
-         cir.setReturnValue(TLSkinCape.getLocationSkin(playerInfo.m_105312_()));
-      }
+    @Shadow @Nullable protected abstract PlayerInfo getPlayerInfo();
 
-   }
-
-   @Inject(
-      method = {"m_108561_"},
-      at = {@At("RETURN")},
-      cancellable = true
-   )
-   private void m_108561_(CallbackInfoReturnable<ResourceLocation> cir) {
-      PlayerInfo playerInfo = this.m_108558_();
-      if (playerInfo != null) {
-         cir.setReturnValue(TLSkinCape.getLocationCape(playerInfo.m_105312_()));
-      }
-
-   }
-
-   @Inject(
-      method = {"m_108563_"},
-      at = {@At("RETURN")},
-      cancellable = true
-   )
-   private void m_108563_(CallbackInfoReturnable<ResourceLocation> cir) {
-      PlayerInfo playerInfo = this.m_108558_();
-      if (playerInfo != null) {
-         cir.setReturnValue(TLSkinCape.getLocationElytra(playerInfo.m_105312_()));
-      }
-
-   }
-
-   @Inject(
-      method = {"m_108564_"},
-      at = {@At("RETURN")},
-      cancellable = true
-   )
-   private void m_108564_(CallbackInfoReturnable<String> cir) {
-      PlayerInfo playerInfo = this.m_108558_();
-      if (playerInfo != null) {
-         cir.setReturnValue(TLSkinCape.getSkinType(playerInfo.m_105312_()));
-      }
-
-   }
+    @Inject(method = "getSkin", at = @At("RETURN"), cancellable = true)
+    private void onGetSkin(CallbackInfoReturnable<PlayerSkin> cir) {
+        PlayerInfo playerInfo = this.getPlayerInfo();
+        if (playerInfo != null) {
+            PlayerSkin original = cir.getReturnValue();
+            
+            // Создаем новый объект PlayerSkin, подставляя туда данные из TLauncher
+            PlayerSkin customSkin = new PlayerSkin(
+                TLSkinCape.getLocationSkin(playerInfo.getProfile()),
+                TLSkinCape.getLocationCape(playerInfo.getProfile()),
+                TLSkinCape.getLocationElytra(playerInfo.getProfile()),
+                original.capeTexture(), // если плащ не нужен, можно оставить оригинал
+                original.model(),       // или перевести строку TLauncher в PlayerSkin.Model
+                original.secure()
+            );
+            
+            cir.setReturnValue(customSkin);
+        }
+    }
 }
