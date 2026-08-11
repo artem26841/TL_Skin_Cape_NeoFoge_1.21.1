@@ -8,17 +8,15 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.tlauncher.TLSkinCape;
 
-@Mixin({TitleScreen.class})
+@Mixin(TitleScreen.class)
 public class MixinMainMenu {
-   @Inject(
-      method = {"m_88315_"},
-      at = {@At("TAIL")}
-   )
-   private void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta, CallbackInfo ci) {
-      this.render();
-   }
-
-   private void render() {
-      TLSkinCape.onMainMenuRender();
-   }
+    
+    @Inject(
+        method = "render", // Заменили m_88315_ на человеческое название
+        at = @At("TAIL")
+    )
+    private void onRender(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+        // Вызываем логику инициализации TLauncher напрямую
+        TLSkinCape.onMainMenuRender();
+    }
 }
